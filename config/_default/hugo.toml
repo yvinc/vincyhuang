@@ -107,11 +107,11 @@ enableRobotsTXT = true
 ## Site parameters
 [params]
     ## Site title
-    title = "Example"
+    title = "Vincy Huang"
     ## Site description
     description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
-    ## Copyright notice
-    copyright = "Copyleft 2025 &copy; Author"
+    ## Copyright notice (year)
+    copyright = "2026 &copy; Vincy Huang" 
     ## Hide "powered by hugo" on colophon
     # HideHugoCredit = true
     ## Enable extended metadata (social cards)
@@ -120,6 +120,7 @@ enableRobotsTXT = true
     coffeeStat = true
     ## Default social card image, recommended resolution: 1200 x 630px
     # images = "example.com/img/social-share.jpg"
+
     ## Do not block AI user agent for robot.txt
     AllowAIRobots = false
     ## or BearMode--Minimize clutter for small site; Disable breadcrumbs menu, share button, related posts, colophon and redaction history.
@@ -132,9 +133,9 @@ enableRobotsTXT = true
     ## Author information
     [params.author]
         ## site author's name
-        name = 'Author Name'
+        name = 'Vincy Huang'
         ## Author's email (will be used for RSS feed)
-        email = 'email@example.com'
+        email = 'imvincy@outlook.com'
         ## Co-authors information (optional)
         coauthor = [
             {name = "A.N. Other", bio = "This quick paragraph is written in site configuration (hugo.toml). Therefore, no markdown support. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}

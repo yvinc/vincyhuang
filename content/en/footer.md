@@ -5,19 +5,21 @@ coffee: 2
 params:
     headless: true
     target: 'https://github.com/foxihd/hugo-brewm'
+    
 ---
 
-**Impressum**
+**Judgment free zone**
+
+you're a legend for scrolling this far.
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 <br>
 
 <fieldset id=cookie-banner>
 <legend>Cookie Banner</legend>
 <div>
-<span>We do not collect cookie</span>
+<span>This site does not collect cookie</span>
 <img id="no-cookie" alt="No Cookie for Cookie Monster" />
 </div>
 </fieldset>

@@ -51,6 +51,7 @@
     Post       = 'some silly stuffs 🤓'
     weight     = 2
 
+
 # The "More Menu"
 [[more]]
   name       = 'Home'
@@ -65,13 +66,6 @@
   identifier = 'about'
   pageRef    = '/'
   weight     = 5
-
-  [[more]]
-  name       = 'Sustainability'
-  identifier = 'sustainability'
-  pageRef    = '/'
-  parent     = 'about'
-  weight     = 1
 
   [[more]]
   name       = 'Author'
@@ -115,54 +109,26 @@
   weight     = 1
   pre        = 'bluesky'
 
-[[author-name]]
-  identifier = 'discord'
-  pageRef    = '/'
-  weight     = 2
-  pre        = 'discord'
-
-[[author-name]]
-  name       = ''
-  identifier = 'mastodon'
-  pageRef    = '/'
-  weight     = 3
-  pre        = 'mastodon'
-
 
 [[footer]]
-  identifier = 'figma'
-  pageRef    = '/'
+  identifier = 'github'
   weight     = 1
-  name       = 'figma'
-  pre        = 'figma'
-
-[[footer]]
-  identifier = 'hashnode'
-  pageRef    = '/'
-  weight     = 2
-  name       = 'hashnode'
-  pre        = 'hashnode'
+  name       = 'github'
+  url        = "https://github.com/yvinc"
+  pre        = 'github'
+  [[footer.params]]
+    target   = "_blank"               # open in new tab (recommended for external)
+    rel      = "noopener"             # security best practice
 
 [[footer]]
   identifier = 'email'
-  pageRef    = '/'
-  weight     = 3
+  url    = 'mailto:imvincy@outlook.com'
+  weight     = 2
   name       = 'email'
   pre        = 'email'
-
-[[footer]]
-  identifier = 'linkedin'
-  pageRef    = '/'
-  weight     = 4
-  name       = 'linkedin'
-  pre        = 'linkedin'
-
-[[footer]]
-  identifier = 'karyakarsa'
-  pageRef    = '/'
-  weight     = 5
-  name       = 'karya karsa'
-  pre        = 'karyakarsa'
+  [[footer.params]]
+    target   = "_blank"               # open in new tab (recommended for external)
+    rel      = "noopener"             # security best practice  
 
 [[contrib]]
   identifier = 'githubsponsors'

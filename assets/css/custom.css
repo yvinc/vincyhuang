@@ -1,6 +1,6 @@
 :root {
     /* default contrast */
-    --ac-light: #36c;
+    --ac-light: rgba(110, 170, 196, 1);
     --fg-light: #111;
     --bg-light: #f9f9fb;
     --midtone: gray;
@@ -9,7 +9,7 @@
     --ac-dark: #fa0;
 
     /* less contrast */
-    --ac-light-less: #36c;
+    --ac-light-less: rgba(110, 170, 196, 1);
     --fg-light-less: #13253d;
     --bg-light-less: #e7e2e2;
     --midtone-less: #7d8490;
@@ -18,7 +18,7 @@
     --ac-dark-less: #fa0;
 
     /* more contrast */
-    --ac-light-more: #36c;
+    --ac-light-more: rgba(110, 170, 196, 1);
     --fg-light-more: #000;
     --bg-light-more: #fff;
     --midtone-more: gray;
@@ -68,11 +68,11 @@ body[data-contrast="less"] .on-plank {
 body[data-contrast="less"] #background-body {
     background-color: var(--bg);
     background-image:
-        radial-gradient(at 50% 40%,var(--bg) 0,transparent 50%),
-        radial-gradient(at 68% 62%,var(--bg) 0,transparent 50%),
-        radial-gradient(at 62% 38%,hsla(226,96%,52%,.5) 0,transparent 50%),
-        radial-gradient(at 35% 70%,hsla(246,31%,58%,.5) 0,transparent 50%),
-        radial-gradient(at 90% 85%,hsla(343,77%,69%,.3) 0,transparent 50%);
+        radial-gradient(at 50% 40%,var(--bg) 0,transparent 20%),
+        radial-gradient(at 68% 62%,var(--bg) 0,transparent 20%),
+        radial-gradient(at 62% 38%,hsla(76, 96%, 52%, 0.50) 0,transparent 20%),
+        radial-gradient(at 35% 70%,hsla(246,31%,58%,.5) 0,transparent 20%),
+        radial-gradient(at 90% 85%,hsla(343,77%,69%,.3) 0,transparent 20%);
 }
 
 body[data-contrast="less"] .screening {
