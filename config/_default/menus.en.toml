@@ -13,7 +13,7 @@
   name       = 'About :)'
   identifier = 'About me'
   weight     = 1
-  url        = 'https://yvinc.github.io/site-experiment/categories/about-me/' # change it
+  pageRef    = '/author/About'
   pre        = 'about'
   [[main.params]]
     target   = '_blank'
@@ -30,7 +30,7 @@
   name       = 'Projects'
   identifier = 'projects'
   weight     = 3
-  url        = 'https://yvinc.github.io/site-experiment/categories/about-me/' # change it
+  pageRef    = '/author'
   pre        = 'projects'
   [[main.params]]
     target   = '_blank'
@@ -38,7 +38,7 @@
   [[main]]
     name       = 'All Posts'
     identifier = 'all posts'
-    pageRef    = '/'
+    pageRef    = '/post'
     parent     = 'posts'
     Post       = ''             # preview title in grey
     weight     = 1
@@ -102,9 +102,9 @@
 
 
 
-[[author-name]]
+[[author-name]] #social icon on About (author) page
   name       = ''
-  identifier = '@user-name'
+  identifier = '@vincy-huang'
   pageRef    = '/'
   weight     = 1
   pre        = 'bluesky'
