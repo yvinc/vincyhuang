@@ -4,7 +4,7 @@
 [404PageNotFound]
     other = "Page Not Found"
 [404Alert]
-    other = "This page intentionally redirect"
+    other = "This page intentionally redirects"
 [404ReturnHome]
     other = "back to homepage"
 [accessibility]
@@ -241,6 +241,10 @@
 [stage]
     one = "Stage"
     other = "Stages"
+[projects]
+    one = "project"
+    other = "Projects"
+
 [switchLangTo]
     other = "Switch Language to"
 [TableOfContents]

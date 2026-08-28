@@ -10,7 +10,7 @@ params:
 
 **Judgment free zone**
 
-you're a legend for scrolling this far.
+legend for scrolling this far.
 
 
 

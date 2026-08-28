@@ -104,12 +104,13 @@ enableRobotsTXT = true
     ## Author taxonomy
     author = "author"
 
+
 ## Site parameters
 [params]
     ## Site title
     title = "Vincy Huang"
     ## Site description
-    description = "An ExampleSite built with Hugo and Hugo-Brewm theme"
+    description = "An personal page built with Hugo and Hugo-Brewm theme"
     ## Copyright notice (year)
     copyright = "2026 &copy; Vincy Huang" 
     ## Hide "powered by hugo" on colophon

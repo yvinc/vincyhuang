@@ -1,4 +1,6 @@
 # `identifier` and `parent` are linked
+# `pageRef = /...` assumes `content/en/...`
+
 [[main]]
   name       = ''
   identifier = 'Github profile yvinc'
@@ -13,25 +15,26 @@
   name       = 'About'
   identifier = 'About me'
   weight     = 1
-  pageRef    = '/author/About'
+  pageRef    = '/about'
   pre        = 'about'
   [[main.params]]
     target   = '_blank'
+
+# Projects
+[[main]]
+  name       = 'Projects'
+  identifier = 'projects'
+  pageRef    = '/projects'
+  weight     = 3
+  pre        = 'projects'
+
 
 # Posts
 [[main]]
   name       = 'Posts'
   identifier = 'posts'
-  pageRef    = '/'
   weight     = 2
-
-# projects
-[[main]]
-  name       = 'Projects'
-  identifier = 'projects'
-  weight     = 3
-  pageRef    = '/author'
-  pre        = 'projects'
+  pre        = 'posts'
   [[main.params]]
     target   = '_blank'
 
@@ -60,11 +63,17 @@
   weight     = 3
   pre        = 'home'
 
+[[more]]
+  name       = '🌷'
+  identifier = 'stage'
+  pageRef    = '/stage'
+  weight     = 4
+  pre        = 'stage'
+
 
 [[more]]
   name       = 'About'
   identifier = 'about'
-  pageRef    = '/'
   weight     = 5
 
   [[more]]
